@@ -47,7 +47,7 @@ def Download_Video(Link,update, context):
     no_watermark=None
     watermark=None
 
-    status_msg=message.reply_text('🚀 DOᗯᑎᒪOᗩᗪIᑎG Video TO Sᕮᖇᐯᕮᖇ ....')
+    status_msg=message.reply_text('لە بارکردن دایەچاوڕێ بکە🖤')
     status_sticker=message.reply_sticker('CAACAgUAAxkBAAED9jhiDqYeGjENlCjftByz0au6n4YAASEAAnUEAALpa8lXL9cvxeTK-2AjBA')
 
     # Getting Download Links Using API
@@ -58,7 +58,7 @@ def Download_Video(Link,update, context):
        print('Download Links Generated \n\n\n'+str(req)+'\n\n\n')
     except:
         print('Download Links Generate Error !!!')
-        status_msg.edit_text('⁉️ TikTok Downloader API Error !!! Report To Developer : @SL_Developers')
+        status_msg.edit_text('⁉️ کێشەیک ڕوویدا تکایە پەیوندی بکە بە سەرۆک بۆت !!! Report To Developer : @DARK_4X')
         status_sticker.delete()
         return
     
@@ -67,7 +67,7 @@ def Download_Video(Link,update, context):
 ✅ Successfully Downloaded {} Video 🔰
 
 🔰 Powerd by : [🏖 TikTok Download API 🏖](https://github.com/Single-Developers/API/blob/main/tiktok/Note.md)
-[🔥 Single Developers </> ](https://t.me/DARK_4X) Corporation ©️
+[ Single Developers </> ](https://t.me/DARK_4X) Corporation ©️
 
 ◇───────────────◇"""
     
