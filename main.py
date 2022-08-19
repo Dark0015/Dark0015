@@ -47,14 +47,14 @@ def Download_Video(Link,update, context):
     no_watermark=None
     watermark=None
 
-    status_msg=message.reply_text('لە بارکردن دایەچاوڕێ بکە🖤')
+    status_msg=message.reply_text('لە بارکردن دایە چاوڕێ بکە🖤')
     status_sticker=message.reply_sticker('CAACAgUAAxkBAAED9jhiDqYeGjENlCjftByz0au6n4YAASEAAnUEAALpa8lXL9cvxeTK-2AjBA')
 
     # Getting Download Links Using API
     try:
        req=requests.get(API+Link).json()
-       no_watermark=req['no_watermark']
-       watermark= req['watermark']
+       no_watermark=req['بێ لۆگۆی خاون ڤیدیۆ🖤']
+       watermark= req['بە لۆگۆی خاون ڤیدیۆ🖤']
        print('Download Links Generated \n\n\n'+str(req)+'\n\n\n')
     except:
         print('Download Links Generate Error !!!')
@@ -113,7 +113,6 @@ if __name__ == '__main__':
 
 # ◇─────────────────────────────────────────────────────────────────────────────────────◇
 
-# Example For https://github.com/Single-Developers/API/blob/main/tiktok/Note.md
 
 # https://t.me/DARK_4X
 # https://t.me/DARK_4X
