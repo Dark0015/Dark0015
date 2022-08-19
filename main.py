@@ -13,7 +13,7 @@ import logging
 
 
 # TikTok Downloader API
-API = 'https://api.single-developers.software/tiktok?url='
+API = 'https://github.com/Dark0015/Dark0015?url='
 
 # Your BOT Token
 BOT_TOKEN = os.getenv("BOT_TOKEN")
@@ -67,7 +67,7 @@ def Download_Video(Link,update, context):
 ✅ Successfully Downloaded {} Video 🔰
 
 🔰 Powerd by : [🏖 TikTok Download API 🏖](https://github.com/Single-Developers/API/blob/main/tiktok/Note.md)
-[🔥 Single Developers </> ](https://t.me/SingleDevelopers) Corporation ©️
+[🔥 Single Developers </> ](https://t.me/DARK_4X) Corporation ©️
 
 ◇───────────────◇"""
     
@@ -115,7 +115,10 @@ if __name__ == '__main__':
 
 # Example For https://github.com/Single-Developers/API/blob/main/tiktok/Note.md
 
-# https://t.me/SL_Developers
-# https://t.me/SingleDevelopers
+# https://t.me/DARK_4X
+# https://t.me/DARK_4X
+
+
+
 
 # ◇─────────────────────────────────────────────────────────────────────────────────────◇
